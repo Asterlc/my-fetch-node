@@ -31,3 +31,6 @@ const fetch = (uri, options, maxRedirects = 5, encoding = 'utf8') => {
         req.end('{}');
     });
 }
+
+export default fetch;
+
